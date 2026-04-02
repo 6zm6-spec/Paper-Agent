@@ -1,0 +1,22 @@
+# 1. 忽略 Python 虚拟环境和缓存
+venv/
+__pycache__/
+*.pyc
+
+# 2. 忽略 Mac 系统生成的隐藏文件
+.DS_Store
+
+# 3. 忽略临时生成的排版和过程文件 (不杀 test.pdf)
+presentation.pdf
+Slides_*.pdf
+temp_*
+presentation.tex
+*.log
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+
+# 4. 绝对机密：忽略包含密钥的隐藏文件
+.env
